@@ -16,7 +16,7 @@ class splashscreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splashscreen)
-        Handler().postDelayed({
+      /*  Handler().postDelayed({
             // This method will be executed once the timer is over
             // Start your app main activity
 
@@ -24,7 +24,7 @@ class splashscreen : AppCompatActivity() {
 
             // close this activity
             finish()
-        }, SPLASH_TIME_OUT)
+        }, SPLASH_TIME_OUT)*/
       //  FirebaseApp.initializeApp();
        val auth=FirebaseAuth.getInstance()
         if(auth.currentUser != null){
