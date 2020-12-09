@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizApp">
-        <activity android:name=".activities.SingIn"></activity>
+        <activity android:name=".activities.ProfileActivity"></activity>
+        <activity android:name=".activities.QustionActivity" />
+        <activity android:name=".activities.ResultActivity" />
+        <activity android:name=".activities.SingIn" />
         <activity android:name=".activities.SingUp" />
         <activity android:name=".activities.splashscreen">
             <intent-filter>
